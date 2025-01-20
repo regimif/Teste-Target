@@ -1,12 +1,10 @@
 # Olá! 👋
 ## Aqui neste arquivo, estarão as respostas para o teste da Target. 👇
 
-##
-
 ### Questão 1 - Dado os valores disponibilizados:
 
-- Declaramos variáveis e valores conforme obtidos anteriormente
-- Criamos um loop de while, para processar as operações com o passo a passo dado (enquanto 'K' for menor que 'indice')
+- Declaramos variáveis e valores conforme obtidos anteriormente;
+- Criamos um loop de while, para processar as operações com o passo a passo dado (enquanto 'K' for menor que 'indice').
 
 RESPOSTA: soma = 91
 
@@ -47,11 +45,11 @@ IMPORTANTE: Se tratando de números absurdamente grandes (cerca de 21 digitos) o
 
 ### Questão 3 - Manipulação de dados json.
 
-- Aqui, começamos importando o módulo 'json', para podermos trabalhar com suas propriedades e abrir o arquivo 'dados.json'.
-- Abrimos o arquivo, agora com o nome de 'file', usando a função json 'load'.
-- Filtramos os valores acima de 0, pois esses deveriam ser desconsiderados nos nossos cálculos, utilizando a variável 'valores_validos', onde temos acesso ao valor de cada item SE o valor do item em específico (dia) for maior que 0.
-- Utilizamos funções Python comuns e autoexplicativas para obtermos nas variáveis 'menor_valor', 'maior_valor' o mínimo e o máximo, respectivamente, da variável 'valores_validos'. Para a média, somamos todos os valores na nossa variável de validação, e dividimos pelo número de itens válidos, na mesma variável.
-- Criamos uma variavel 'dias_acima_media' para filtrar, dessa vez, por dia, os itens que estão com o seu valor individual acima da média mensal.
+- Aqui, começamos importando o módulo 'json', para podermos trabalhar com suas propriedades e abrir o arquivo 'dados.json';
+- Abrimos o arquivo, agora com o nome de 'file', usando a função json 'load';
+- Filtramos os valores acima de 0, pois esses deveriam ser desconsiderados nos nossos cálculos, utilizando a variável 'valores_validos', onde temos acesso ao valor de cada item SE o valor do item em específico (dia) for maior que 0;
+- Utilizamos funções Python comuns e autoexplicativas para obtermos nas variáveis 'menor_valor', 'maior_valor' o mínimo e o máximo, respectivamente, da variável 'valores_validos'. Para a média, somamos todos os valores na nossa variável de validação, e dividimos pelo número de itens válidos, na mesma variável;
+- Criamos uma variavel 'dias_acima_media' para filtrar, dessa vez, por dia, os itens que estão com o seu valor individual acima da média mensal;
 - Imprimimos todos os resultados. Contamos na impressão para melhor visualização a quantidade de dias ao todo acima da média mensal, simplesmente contando o valor total de itens na nossa lista 'dias_acima_media'.
 
 Observação: Não foram feitas alterações ao imprimir valores. Optei por dar mais destaque aos tipos de resultado que podemos obter com o arquivo json. Podemos colocar o símbolo de qualquer moeda desejada, antes do valor, e formatar os números decimais impressos, semelhante ao que faremos na questão 4, para facilitar a leitura.
@@ -60,9 +58,9 @@ Observação: Não foram feitas alterações ao imprimir valores. Optei por dar 
 
 ### Questão 4 - Transformando valores brutos em percentuais de um todo
 
-- Salvamos toda renda dos estados em um dicionário, sendo a sigla do estado 'key', e o montante 'value', seguindo o padrão de dicionario (key:value).
-- Somamos todo o faturamento utilizando 'sum', ele será o nosso todo (100%).
-- Criamos um novo dicionario chamado 'percentuais', com um valor associado para cada estado, por meio de uma conta matemática (é dividido a renda pelo faturamento total, vezes 100). Utilizamos também um for para iterar sobre cada item  do dicionário original, em outras palavras, estamos iterando sobre um interável, e se tratando de dicionários, a prática é conhecida como Compreensão de Dicionários.
+- Salvamos toda renda dos estados em um dicionário, sendo a sigla do estado 'key', e o montante 'value', seguindo o padrão de dicionario (key:value);
+- Somamos todo o faturamento utilizando 'sum', ele será o nosso todo (100%);
+- Criamos um novo dicionario chamado 'percentuais', com um valor associado para cada estado, por meio de uma conta matemática (é dividido a renda pelo faturamento total, vezes 100). Utilizamos também um for para iterar sobre cada item  do dicionário original, em outras palavras, estamos iterando sobre um interável, e se tratando de dicionários, a prática é conhecida como Compreensão de Dicionários;
 - Por fim, imprimimos o resultado para cada estado e seu respectivo percentual no todo, formatando ainda o resultado para apenas duas casas decimais, com a formatação matemática '.2f', facilitando a leitura.
 
 ##
@@ -77,3 +75,7 @@ Observação: Não foram feitas alterações ao imprimir valores. Optei por dar 
 
 Exemplo: Digite uma string: String 123
 String invertida: 321 gnirtS
+
+##
+
+Isso é tudo por enquanto... ⚙️
