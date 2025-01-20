@@ -15,7 +15,7 @@ O resultado final segue sendo 91.
 
 ##
 
-### Questão 2 - Verificar se o input está presente numa sequencia fibonacci.
+### Questão 2 - Verificar se o input está presente numa sequencia fibonacci
 
 Podemos separar o código em 2 grandes seções, mas que necessitam uma da outra.
 Primeira (Função 'gerar_fibonacci'):
@@ -44,7 +44,7 @@ IMPORTANTE: Se tratando de números absurdamente grandes (cerca de 21 digitos) o
 
 ##
 
-### Questão 3 - Manipulação de dados json.
+### Questão 3 - Manipulação de dados json
 
 - Aqui, começamos importando o módulo 'json', para podermos trabalhar com suas propriedades e abrir o arquivo 'dados.json';
 - Abrimos o arquivo, agora com o nome de 'file', usando a função json 'load';
