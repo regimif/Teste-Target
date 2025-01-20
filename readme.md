@@ -1,9 +1,9 @@
-Olá! 👋
-Aqui neste arquivo, estarão as respostas para o teste da Target. 👇
+# Olá! 👋
+## Aqui neste arquivo, estarão as respostas para o teste da Target. 👇
 
-#
+##
 
-Questão 1 - Dado os valores disponibilizados:
+### Questão 1 - Dado os valores disponibilizados:
 
 - Declaramos variáveis e valores conforme obtidos anteriormente
 - Criamos um loop de while, para processar as operações com o passo a passo dado (enquanto 'K' for menor que 'indice')
@@ -16,7 +16,7 @@ O resultado final segue sendo 91.
 
 ##
 
-Questão 2 - Verificar se o input está presente numa sequencia fibonacci.
+### Questão 2 - Verificar se o input está presente numa sequencia fibonacci.
 
 Podemos separar o código em 2 grandes seções, mas que necessitam uma da outra.
 Primeira (Função 'gerar_fibonacci'):
@@ -45,7 +45,7 @@ IMPORTANTE: Se tratando de números absurdamente grandes (cerca de 21 digitos) o
 
 ##
 
-Questão 3 - Manipulação de dados json.
+### Questão 3 - Manipulação de dados json.
 
 - Aqui, começamos importando o módulo 'json', para podermos trabalhar com suas propriedades e abrir o arquivo 'dados.json'.
 - Abrimos o arquivo, agora com o nome de 'file', usando a função json 'load'.
@@ -58,7 +58,7 @@ Observação: Não foram feitas alterações ao imprimir valores. Optei por dar 
 
 ##
 
-Questão 4 - Transformando valores brutos em percentuais de um todo
+### Questão 4 - Transformando valores brutos em percentuais de um todo
 
 - Salvamos toda renda dos estados em um dicionário, sendo a sigla do estado 'key', e o montante 'value', seguindo o padrão de dicionario (key:value).
 - Somamos todo o faturamento utilizando 'sum', ele será o nosso todo (100%).
@@ -67,7 +67,7 @@ Questão 4 - Transformando valores brutos em percentuais de um todo
 
 ##
 
-Questão 5 - Inverter strings
+### Questão 5 - Inverter strings
 
 - Obtemos o input do usuário como 'input_usuario';
 - Criamos uma string vazia para armazenar nossa futura string invertida ('string_invertida');
