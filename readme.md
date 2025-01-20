@@ -9,7 +9,8 @@
 RESPOSTA: soma = 91
 
 Curiosidade: Se fôssemos utilizar um console.log dentro do while loop, teríamos iterações que resultarão nos seguintes resultados:
-1,3,6,10,15,21,28,36,45,55,66,78,91
+1,3,6,10,15,21,28,36,45,55,66,78,91.
+
 O resultado final segue sendo 91.
 
 ##
@@ -74,6 +75,7 @@ Observação: Não foram feitas alterações ao imprimir valores. Optei por dar 
 - Imprimimos o resultado.
 
 Exemplo: Digite uma string: String 123
+
 String invertida: 321 gnirtS
 
 ##
